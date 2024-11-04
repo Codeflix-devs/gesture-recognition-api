@@ -6,7 +6,7 @@ const gestureSchema = new mongoose.Schema(
             type: 'string',
             required: true,
         },
-        coordinate: {
+        co_ordinate: {
             type: 'string',
             required: true,
         }

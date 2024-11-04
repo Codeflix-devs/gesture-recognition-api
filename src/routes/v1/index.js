@@ -1,8 +1,9 @@
 const express = require('express')
 const { gestureController } = require('../../controllers')
 
-const router = express.Route()
+const router = express.Router()
 
-router.router("/").post(gestureController.create).get(gestureController.getList)
+router.post("/create", gestureController.create)
+router.get("/", gestureController.getList)
 
 module.exports = router
