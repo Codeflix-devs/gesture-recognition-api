@@ -18,5 +18,8 @@
     "joi": "^17.13.3",
     "mongoose": "^8.8.0",
     "winston": "^3.16.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }
